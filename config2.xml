@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+		https://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="customer1" class="com.XMLConfigurationCustomer.Customer">
+	<constructor-arg name="id" value="101"></constructor-arg>
+	<constructor-arg name="name" value="Sanskruti"></constructor-arg>
+	<constructor-arg name="address" value="Nashik"></constructor-arg>
+	<constructor-arg name="total_bill" value="99"></constructor-arg>
+	</bean>
+	
+	<bean id="customer2" class="com.XMLConfigurationCustomer.Customer">
+	<constructor-arg name="id" value="102"></constructor-arg>
+	<constructor-arg name="name" value="Ajinkya"></constructor-arg>
+	<constructor-arg name="address" value="Amravati"></constructor-arg>
+	<constructor-arg name="total_bill" value="98"></constructor-arg>
+	</bean>
+	
+	<bean id="customer3" class="com.XMLConfigurationCustomer.Customer">
+	<constructor-arg name="id" value="103"></constructor-arg>
+	<constructor-arg name="name" value="Shailesh"></constructor-arg>
+	<constructor-arg name="address" value="Latur"></constructor-arg>
+	<constructor-arg name="total_bill" value="100"></constructor-arg>
+	</bean>
+	
+	
+		</beans>

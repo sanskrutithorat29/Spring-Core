@@ -1,1 +1,1 @@
-package com.XMLCongifuration;
+package com.XMLConfigurationCustomer;
